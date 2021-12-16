@@ -32,6 +32,7 @@
     color: white;
     z-index: 2;
 }
+
 .logo-container {
     background-image: url("../images/logo-bg.png");
     background-size: cover;
@@ -74,4 +75,39 @@ font-size: 0;
 }
 .menuitem a i {
     display: block;
+}
+
+/* ....................................................................footer */
+footer {
+    background-color: rgb(77, 22, 6);
+    min-height: 120px;
+    text-align: center;
+    margin: 0;
+}
+/* this is taken from Code Institue mini project */
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: white;
+    background: burlywood;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.social-links {
+    padding-bottom: 15px;
+}
+footer h6 {
+    font-family: "Cairo", sans-serif;
+    color: whitesmoke;
+}
+
+.footer-nav a {
+    color: white;
 }
