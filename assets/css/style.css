@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Oswald:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* ................................................................ special classes */
+.uppercase {
+    text-transform: uppercase;
+}
+/* ...............................................................................colors */
+.bg-col-home {
+    background-color: rgb(77, 22, 6);
+}
+.bg-col-contact {
+    background-color: rgb(77, 22, 6);
+}
+.bg-col-about{
+    background-color: burlywood;
+    border: rgb(77, 22, 6) 1px solid;
+}
+.wel-msg-bg-col {
+    background-color: burlywood;
+}
+/* .................................................................................. header */
+.header-margin {
+    margin-left: 0;
+    margin-right: 0;
+}
+.logo {
+    font-family: "Cairo", sans-serif;
+    color: white;
+    z-index: 2;
+}
+.logo-container {
+    background-image: url("../images/logo-bg.png");
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    margin-right: 0;
+    height: 210px;
+    z-index: -1;
+
+}
+.menuconatainer {
+font-size: 0;
+}
+.menuitem {
+    text-align: center;
+    height: 120px;
+    padding-top: 50px;
+    margin: 0;
+}
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+.no-gutters {
+    padding-left: 0;
+    padding-right: 0;
+}
+.welcome-msg {
+    height: 90px;
+    text-align: center;
+    padding-top: 35px;
+    color: rgb(77, 22, 6);
+    font-weight: 300;
+    font-size: large;
+    font-family: "Cairo", sans-serif;
+}
+.menuitem a {
+    text-decoration: none;
+    color: white;
+}
+.menuitem a i {
+    display: block;
+}
