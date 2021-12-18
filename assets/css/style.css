@@ -180,3 +180,44 @@ footer h6 {
 iframe {
     max-width: 100%;
 }
+
+/* .......................................................................... Join Us */
+input {
+    display: block;
+    border: solid 1px rgb(77, 22, 6);
+    color: rgb(77, 22, 6);
+    margin-bottom: 10px;
+}
+.form {
+    margin: 0 auto;
+    max-width: 75%;
+    padding-top: 10px;
+
+
+
+}
+
+#form-hd {
+    color: rgb(77, 22, 6);
+    font-family: "Cairo", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px
+}
+button[type="submit"] {
+    background-color: rgb(77, 22, 6);
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+
+}
+form {
+    padding-left: 20px;
+    border: solid 1px rgb(77, 22, 6);
+    padding-top: 20px;
+    margin-bottom: 30px;
+
+}
+label {
+    color: rgb(77, 22, 6);
+}
