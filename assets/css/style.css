@@ -31,6 +31,7 @@
     font-family: "Cairo", sans-serif;
     color: white;
     z-index: 2;
+    letter-spacing: 3px;
 }
 
 .logo-container {
@@ -42,7 +43,6 @@
     margin-right: 0;
     height: 210px;
     z-index: -1;
-
 }
 .menuconatainer {
 font-size: 0;
@@ -76,6 +76,10 @@ font-size: 0;
 .menuitem a i {
     display: block;
 }
+.menuitem a:hover {
+    color:black;
+}
+
 
 /* ....................................................................footer */
 footer {
@@ -84,7 +88,7 @@ footer {
     text-align: center;
     margin: 0;
 }
-/* this is taken from Code Institue mini project */
+/* this is taken from Code Institue Resume mini project */
 .social-links li a i {
     width: 32px;
     height: 32px;
@@ -105,9 +109,26 @@ footer {
 }
 footer h6 {
     font-family: "Cairo", sans-serif;
-    color: whitesmoke;
+    color: burlywood;
 }
 
 .footer-nav a {
     color: white;
+}
+
+/* ........................................................... Home Page Section */
+
+#hero-img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.about {
+    color: rgb(77, 22, 6);
+    font-family: "Cairo", sans-serif;
+    text-align: center;
+}
+
+.about h3 {
+    text-decoration: underline;
 }
