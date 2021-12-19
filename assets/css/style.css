@@ -221,3 +221,13 @@ form {
 label {
     color: rgb(77, 22, 6);
 }
+
+/* .............................................................Submit */
+
+.thanks {
+    text-align: center;
+    color: rgb(77, 22, 6);
+    font-family: "Cairo", sans-serif;
+    font-weight: bold;
+    margin: 40px;
+}
