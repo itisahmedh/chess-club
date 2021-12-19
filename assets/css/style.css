@@ -108,6 +108,8 @@ footer {
 .social-links {
     padding-bottom: 15px;
 }
+/* this is taken from Code Institue Resume mini project */
+
 footer h6 {
     font-family: "Cairo", sans-serif;
     color: burlywood;
@@ -122,6 +124,8 @@ footer h6 {
 #hero-img {
     margin-top: 5px;
     margin-bottom: 5px;
+    max-width:100%;
+     height:auto;
 }
 
 .about {
@@ -184,9 +188,10 @@ iframe {
 /* .......................................................................... Join Us */
 input {
     display: block;
-    border: solid 1px rgb(77, 22, 6);
+    border: solid 1px rgb(76, 22, 6);
     color: rgb(77, 22, 6);
     margin-bottom: 10px;
+    max-width: 95%;
 }
 .form {
     margin: 0 auto;
